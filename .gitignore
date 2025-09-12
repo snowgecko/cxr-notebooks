@@ -1,0 +1,23 @@
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+.envrc
+.DS_Store
+
+# Data & artifacts (adjust as needed)
+data/
+outputs/
+weights/
+*.ckpt
+*.pt
+*.h5
+*.onnx
+
+# VS Code
+.vscode/
