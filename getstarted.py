@@ -22,4 +22,5 @@ images = [Image.open(io.BytesIO(requests.get(image_path).content)).convert("RGB"
 prompt = f'Describe "Airway"'
 inputs = processor(images=images, text=f" USER: <s>{prompt} ASSISTANT: <s>", return_tensors="pt").to(device=device, dtype=dtype)
 output = model.generate(**inputs, generation_config=generation_config)[0]
-response = processor.tokenizer.decode(output, skip_special_tokens=True)
+response = processor.toÌkenizer.decode(output, skip_special_tokens=True)
+
