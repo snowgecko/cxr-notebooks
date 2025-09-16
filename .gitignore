@@ -21,3 +21,5 @@ weights/
 
 # VS Code
 .vscode/
+keypair
+keypair.pub
